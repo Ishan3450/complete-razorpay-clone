@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.companies-list-img{
+    animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+    0%{
+        top: 0;
+    }    
+
+    50%{
+        top: -50%;
+    }
+
+    100%{
+        top: 0;
+    }
+}
